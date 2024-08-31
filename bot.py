@@ -14,7 +14,7 @@ from PIL import Image, ImageDraw, ImageFont
 from pokestore import pokemon_store
 
 # Connect to MongoDB
-client = pymongo.MongoClient('mongodb+srv://sonu55:sonu55@cluster0.vqztrvk.mongodb.net/?retryWrites=true&w=majority')
+client = pymongo.MongoClient('mongodb+srv://tiwarireeta004:peqxLEd36RAg7ors@cluster0.furypd3.mongodb.net/?retryWrites=true&w=majority')
 db = client['pokemon_bot']
 collection = db['pokedex']
 leaderboard_collection = db['leaderboard']
@@ -25,7 +25,7 @@ message_count = 0
 announced_pokemon = None
 
 # Create a Pyrogram client
-api_id = 16743442
+api_id = 24074986
 api_hash = 'f4f6272a85d0e50e39a24cb378be118d'
 bot_token = '7003572146:AAFbA0uU0NyHdOFyU2XnFLHLMd_9ibif9KU'
 app = Client("pokemon_bot", api_id, api_hash, bot_token=bot_token)
